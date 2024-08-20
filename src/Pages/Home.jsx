@@ -1,7 +1,4 @@
 
-
-
-
 import PropTypes from 'prop-types';
 import BrandCategories from "../Components/BrandCategories";
 import Phones from "../Components/Phones";
@@ -82,11 +79,10 @@ export default function Home() {
             <div className="block cursor-pointer p-4 font-bold">
               <Link to="/">
                 <img
-                  className="flex items-center"
-                  src="https://i.ibb.co/5L8tWX5/logo.png"
+                  className="flex items-center w-full"
+                  src="https://i.ibb.co/RyhwJ00/lll-removebg.png"
                   alt="logo"
-                  width="100"
-                  height="100"
+                  
                 />
               </Link>
             </div>
@@ -106,13 +102,12 @@ export default function Home() {
         >
           <div>
             <div>
-              <div className="w-full hidden md:flex px-4 py-2 shadow-lg rounded-lg justify-center items-center bg-rose-100 mx-auto">
+              <div className="w-full hidden md:flex px-4 py-2 shadow-lg rounded-lg justify-center items-center  mx-auto">
                 <Link to="/">
                   <img
-                    src="https://i.ibb.co/5L8tWX5/logo.png"
+                    src="https://i.ibb.co/RyhwJ00/lll-removebg.png"
                     alt="logo"
-                    width="100"
-                    height="100"
+                  className='w-full '
                   />
                 </Link>
               </div>
