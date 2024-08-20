@@ -1,0 +1,19 @@
+.pagination {
+    text-align: center;
+    /* display: flex; */
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* justify-items: center;
+    align-items: center; */
+    gap: 30px;
+}
+
+.pagination button {
+    margin-left: 10px;
+}
+
+.pagination .selected {
+    background-color: #3B82F6;
+    border-radius: 8px;
+}
