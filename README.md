@@ -65,7 +65,7 @@ https://gadgedzonescic10.netlify.app/
 Clone the project
 
 ```bash
-  https://github.com/HumayunKabirSobuj/Gadged-zone-client.git
+  https://github.com/rimonali123/Gadget-Zone-client
 ```
 
 Go to the project directory
