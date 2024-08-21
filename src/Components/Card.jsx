@@ -8,7 +8,7 @@ export default function Card({ phone }) {
     return (
         <div>
 
-            <div data-aos="zoom-in" data-aos-duration="1000" className='col-span-1 cursor-pointer group bg-white border-2 border-[#578de1] rounded-xl'>
+            <div data-aos="zoom-in" data-aos-duration="1000" className='col-span-1 cursor-pointer group bg-white hover:border hover:border-green-500 rounded-xl'>
                 <div className='flex flex-col gap-2 w-full pb-5'>
                     <div
                         className='
@@ -20,26 +20,11 @@ export default function Card({ phone }) {
             '
                     >
                         <img
-                            className='
-                object-cover 
-                h-full 
-                w-full 
-                group-hover:scale-110 
-                transition
-                p-10
-                bg-slate-100
-              '
+                            className='object-cover h-full w-full group-hover:scale-110 transition  p-10' 
                             src={phone?.ProductImage}
-                            alt='Room'
+                            alt='image'
                         />
-                        <div
-                            className='
-                           
-              absolute
-              top-3
-              right-3
-            '
-                        ></div>
+                    
                     </div>
                     <div className='font-semibold text-lg'>{phone?.productname}</div>
                     <div className='font-semibold text-base'>{phone?.category} Phone</div>
