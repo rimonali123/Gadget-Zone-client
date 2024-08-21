@@ -1,6 +1,6 @@
 
 
-# Gadged Zone
+# Smart Gadget Zone
  
 This is a online mobile store website .
 
@@ -12,7 +12,7 @@ This is a online mobile store website .
 
 
 ```bash
------
+https://smart-gadget-zone.netlify.app/
 ```
 
 
