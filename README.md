@@ -12,7 +12,7 @@ This is a online mobile store website .
 
 
 ```bash
-https://gadgedzonescic10.netlify.app/
+-----
 ```
 
 
